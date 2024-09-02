@@ -32,7 +32,7 @@ int main() {
     }
 
     // Send data to server
-    char data_addr[] = "I'm a message";
+    char data_addr[] = "ww";
     int data_len = strlen(data_addr);
     int sent_bytes = send(sock, data_addr, data_len, 0);
     if (sent_bytes < 0) {
